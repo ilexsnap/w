@@ -2,14 +2,14 @@ export const config = {
   // Bot Configuration
   botName: 'NeoxrBot',
   prefix: '.',
-  ownerNumber: '1234567890@s.whatsapp.net', // Replace with your WhatsApp number
+  ownerNumber: '923417033005@s.whatsapp.net', // Replace with your WhatsApp number
   
   // Session Configuration
   sessionName: 'neoxr-session',
   
   // Connection Method
-  connectionMethod: 'qr', // 'qr' or 'pairing'
-  pairingNumber: '', // Phone number for pairing (without +)
+  connectionMethod: 'pairing', // 'qr' or 'pairing'
+  pairingNumber: '923417033005', // Phone number for pairing (without +)
   
   // Database Configuration
   database: {
