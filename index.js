@@ -1,11 +1,11 @@
 import { NeoxrBot } from 'neoxr-whatsapp-bot';
 import qrcode from 'qrcode-terminal';
 import fs from 'fs-extra';
-import { config } from './config/config.js';
-import Logger from './lib/logger.js';
-import database from './lib/database.js';
-import { utils } from './lib/utils.js';
-import pluginLoader from './lib/pluginLoader.js';
+import { config } from './config.js';
+import Logger from './core/logger.js';
+import database from './core/database.js';
+import { utils } from './core/utils.js';
+import pluginLoader from './core/pluginLoader.js';
 
 class WhatsAppBot {
   constructor() {
