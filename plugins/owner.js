@@ -1,5 +1,4 @@
-import { config } from '../config/config.js';
-
+import { config } from '../config.js';
 export default {
   name: 'owner',
   aliases: ['creator', 'dev'],
