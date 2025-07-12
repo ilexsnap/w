@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-bot-neoxr",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot based on Neoxr Baileys with modular plugin architecture",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@neoxr/wb": "^5.10.10",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-cache": "^5.1.2",
+    "chalk": "^5.3.0",
+    "mongoose": "^8.0.0",
+    "fs-extra": "^11.2.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "neoxr",
+    "modular",
+    "plugins"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
